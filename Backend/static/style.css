@@ -1,0 +1,124 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Utility to hide elements (if needed) */
+.hidden {
+  display: none;
+}
+
+/* -----------------------
+   LOGIN / SIGNUP / RESET 
+------------------------ */
+.login-screen {
+  max-width: 400px;
+  margin: 100px auto;
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-screen input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.login-screen button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-screen a {
+  color: #007BFF;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.login-screen p {
+  margin-top: 1rem;
+}
+
+/* -----------------------
+      CHAT INTERFACE
+------------------------ */
+.chat-container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.input-area button {
+  padding: 12px 20px;
+  background-color: #0a6dc2;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.product-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 0.85rem;
+}
+
+.product-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.product-card h4 {
+  margin: 0 0 6px 0;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.product-card p {
+  margin: 3px 0;
+  line-height: 1.3;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Uplyft Product Chatbot</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+
+  <main class="chat-container">
+    <header class="chat-header">
+      <h2>Chat with UplyftBot</h2>
+      <form method="get" action="/">
+        <button type="submit">Reset</button>
+      </form>
+    </header>
+
+    <form method="post" class="input-area">
+      <input type="text" name="query" placeholder="Ask about products..." required autofocus value="{{ query or '' }}">
+      <button type="submit">Send</button>
+    </form>
+
+    {% if query %}
+      {% if results %}
+        <h4>Showing results for: "{{ query }}"</h4>
+        {% for product in results %}
+          <div class="product-card">
+            {% if 'picsum.photos' in product.image_url %}
+              <img src="{{ product.image_url }}" alt="{{ product.name }}">
+            {% endif %}
+            <div>
+              <h4>{{ product.name }}</h4>
+              <p><strong>Category:</strong> {{ product.category }}</p>
+              <p><strong>Price:</strong> ₹{{ product.price }}</p>
+              <p>{{ product.description }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      {% else %}
+        <p>No results found for "{{ query }}".</p>
+      {% endif %}
+    {% endif %}
+
+  </main>
+
+</body>
+</html>
