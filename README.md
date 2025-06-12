@@ -60,7 +60,7 @@ CHATBOT/
 
 ## 📽️ Demo Video
 
-▶️ [Watch the full demo on YouTube](https://www.youtube.com/watch?v=your-demo-video-link)
+▶️ https://github.com/user-attachments/assets/dd8a9ca4-d45b-4fbc-b7d1-e124dcc10c1b
 
 ---
 
