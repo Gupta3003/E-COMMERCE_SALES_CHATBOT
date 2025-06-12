@@ -60,7 +60,7 @@ CHATBOT/
 
 ## 📽️ Demo Video
 
-▶️ ![Vedio](https://github.com/user-attachments/assets/c9a09701-8131-405d-951b-ff4b665765bc)
+▶️ (https://github.com/user-attachments/assets/c9a09701-8131-405d-951b-ff4b665765bc)
 ---
 
 ## 📸 Screenshots
