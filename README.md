@@ -68,7 +68,7 @@ CHATBOT/
 
 ### 🔐 Signup & Login
 ![Image](https://github.com/user-attachments/assets/9bb944d0-1967-4161-97da-f3af9b5d3804)
-![Image](https://github.com/user-attachments/assets/71ab1739-a54a-4e3b-8abd-6a0b5c32de6f)
+![Image](https://github.com/user-attachments/assets/ebdda088-1376-459f-9145-e68ca39e4b98)
 
 ### 💬 Chat Interface
 ![Image](https://github.com/user-attachments/assets/edbd0fd9-9659-4f95-94f4-5591408db962)
@@ -78,7 +78,6 @@ CHATBOT/
 ![Image](https://github.com/user-attachments/assets/62049cad-2061-42aa-8483-242f417e8401)
 ![Image](https://github.com/user-attachments/assets/e0059e54-ec60-4496-a0d5-1947ccbd27c7)
 ![Image](https://github.com/user-attachments/assets/1477786c-e7bd-4aa7-b510-78f20bfb0f3b)
-![Image](https://github.com/user-attachments/assets/ebdda088-1376-459f-9145-e68ca39e4b98)
 
 ### 🔁 Forgot Password
 ![Image](https://github.com/user-attachments/assets/71ab1739-a54a-4e3b-8abd-6a0b5c32de6f)
