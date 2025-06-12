@@ -139,17 +139,3 @@ Visit: `http://localhost:5000/`
 - `.env` file used for hiding sensitive data (SECRET_KEY, Mail creds)
 
 ---
-
-## 📘 License
-MIT License
-
----
-
-## 👩‍💼 Author
-**Bhavya Gupta** — Internship Case Study, June 2025
-
-> Created as part of Uplyft Full Stack Internship Assignment
-
----
-
-Need the 📘 project report or 📊 presentation? Let me know!
