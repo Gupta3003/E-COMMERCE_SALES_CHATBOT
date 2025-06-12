@@ -1,9 +1,6 @@
 # 📦  Chatbot
 
 A full-stack chatbot-based product search application built with Flask and SQLite. It allows users to register, log in, search for products using natural queries, and reset passwords via email.
-
-![Dashboard](screenshots/dashboard.png)
-
 ---
 
 ## 🚀 Features
@@ -60,7 +57,7 @@ CHATBOT/
 
 ## 📽️ Demo Video
 
-▶️ (https://github.com/user-attachments/assets/c9a09701-8131-405d-951b-ff4b665765bc)
+▶️ ![](https://github.com/user-attachments/assets/c9a09701-8131-405d-951b-ff4b665765bc)
 ---
 
 ## 📸 Screenshots
